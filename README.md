@@ -1,4 +1,9 @@
-This is a tool to load qcom libmmcamera sensor lib under android8+ and dump the initialization register content of it. 
+This is a tool to load qcom libmmcamera sensor lib under arm/arm64 android8+ and dump the initialization register content of it. 
+Also, this is a stub lib and wrapper for loading older sensor library too for example provided a rectified struct sensor_lib_t 
+and recompile as share library.
+
+Arch for intercept:
+libmmcamera2_modules.so->libmmcamera_imx350.so (this_wrapper)->libmmcamera_sony_imx350_1.so (original so lib)
 
 To compile:
 Download Android gcc from below:
@@ -26,16 +31,17 @@ char dummy[0x5fa4 - 4 - sizeof(struct camera_sensor_slave_info)];
 
 .....
 
+
 ~/libmmcamera_loader# ./build_bin.sh
 
 done!
 
 .....
+
 Usage:
-~/libmmcamera_loader# libmmcamera imx350
+/debug_ramdisk# libmmcamera imx350
 
 and below will appear:
-===========================
 __attach()
 Hello world ./libmmcamera imx350
 usage: ./libmmcamera [cmos|imx350]
