@@ -1,0 +1,1244 @@
+__attach()
+Hello world ./libmmcamera imx362
+usage: ./libmmcamera [cmos|imx350]
+default 'imx350' for libmmcamera_imx350.so
+e.g. ./libmmcamera s5k3p3sm for libmmcamera_s5k3p3sm.so
+enter
+lib_name ./libmmcamera_imx362.so
+exit
+sensor_load_library, return 0
+msm_camera_sensor_slave_info:
+  0000  69 6d 78 33 36 32 00 00 00 00 00 00 00 00 00 00  imx362..........
+  0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0020  20 00 00 00 03 00 00 00 02 00 00 00 00 00 00 00   ...............
+  0030  16 00 62 03 00 00 00 00 00 00 00 00 00 00 00 00  ..b.............
+  0040  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0050  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0060  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00c0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00d0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00e0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00f0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x0 	 sensor_slave_info:		  0000  69 6d 78 33 36 32 00 00 00 00 00 00 00 00 00 00  imx362..........
++0x20 	 sensor_slave_info.slave_addr:		  0000  20 00 00 00 03 00 00 00 02 00 00 00 00 00 00 00   ...............
++0x2c 	 sensor_slave_info.data_type:		  0000  00 00 00 00 16 00 62 03 00 00 00 00 00 00 00 00  ......b.........
++0x30 	 sensor_slave_info.sensor_id_info:		  0000  16 00 62 03 00 00 00 00 00 00 00 00 00 00 00 00  ..b.............
++0x38 	 sensor_slave_info.power_setting_array:		  0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x1c0 	 sensor_slave_info.is_init_params_valid:		  0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x5fa0 	 sensor_output:		  0000  00 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00  ................
++0x5fb4 	 output_reg_addr:		  0000  4c 03 4e 03 42 03 40 03 02 02 00 00 04 02 00 00  L.N.B.@.........
++0x5fbc 	 exp_gain_info:		  0000  02 02 00 00 04 02 00 00 00 00 00 00 00 00 00 00  ................
++0x5fd0 	 aec_info:		  0000  00 00 80 3f 00 00 80 41 00 00 00 41 00 00 00 00  ...?...A...A....
++0x6028 	 sensor_num_frame_skip:		  0000  01 00 02 00 02 00 00 00 33 33 b3 3f 02 00 00 00  ........33.?....
++0x602a 	 sensor_num_HDR_frame_skip:		  0000  02 00 02 00 00 00 33 33 b3 3f 02 00 00 00 c3 f5  ......33.?......
++0x602c 	 sensor_max_pipeline_frame_delay:		  0000  02 00 00 00 33 33 b3 3f 02 00 00 00 c3 f5 b8 40  ....33.?.......@
++0x6030 	 sensor_property:		  0000  33 33 b3 3f 02 00 00 00 c3 f5 b8 40 c0 0f 00 00  33.?.......@....
++0x603c 	 pixel_array_size_info:		  0000  c0 0f 00 00 d0 0b 00 00 08 00 08 00 08 00 08 00  ................
++0x604c 	 color_level_info:		  0000  ff 03 40 00 40 00 40 00 40 00 00 00 02 00 00 00  ..@.@.@.@.......
++0x6058 	 sensor_stream_info_array:		  0000  02 00 00 00 00 2b 02 00 00 00 00 00 00 00 00 00  .....+..........
++0x6264 	 start_settings:		  0000  00 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x6594 	 stop_settings:		  0000  00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x68c4 	 groupon_settings:		  0000  04 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x6bf4 	 groupoff_settings:		  0000  04 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x6f24 	 embedded_data_enable_settings:		  0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x7254 	 embedded_data_disable_settings:		  0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x7584 	 aec_enable_settings:		  0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x78b4 	 aec_disable_settings:		  0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x7be4 	 dualcam_master_settings:		  0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x8244 	 test_pattern_info:		  0000  00 00 00 00 00 06 00 00 00 00 00 00 00 00 00 00  ................
++0x9588 	 effect_info:		  0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
++0x9f28 	 init_settings_array:		  0000  36 01 18 00 00 00 00 00 37 01 00 00 00 00 00 00  6.......7.......
++0x5c08c 	 res_settings_array:		  0000  12 01 0a 00 00 00 00 00 13 01 0a 00 00 00 00 00  ................
++0xae1f0 	 out_info_array:		  0000  c0 0f d0 0b e0 22 40 0c 00 00 00 00 00 05 54 1f  ....."@.......T.
+//check with modified power_setting location @0x5e08. and shifted 0x5dd0
+power_setting:
+  0000  01 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00  ................
+  0010  01 00 00 00 04 00 00 00 02 00 00 00 01 00 00 00  ................
+  0020  02 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00  ................
+  0030  01 00 00 00 05 00 00 00 02 00 00 00 01 00 00 00  ................
+  0040  02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0050  02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00  ................
+  0060  00 00 00 00 00 00 00 00 00 36 6e 01 01 00 00 00  .........6n.....
+  0070  01 00 00 00 00 00 00 00 02 00 00 00 12 00 00 00  ................
+  0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0090  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00a0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00b0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00c0  08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00d0  01 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00  ................
+  00e0  01 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00  ................
+  00f0  00 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00  ................
+  0100  00 00 00 00 01 00 00 00 05 00 00 00 00 00 00 00  ................
+  0110  01 00 00 00 02 00 00 00 02 00 00 00 00 00 00 00  ................
+  0120  00 00 00 00 01 00 00 00 04 00 00 00 00 00 00 00  ................
+  0130  01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0140  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0150  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0160  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0170  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0180  00 00 00 00 07 00 00 00                          ........
+.size = 8,
+.power_setting_a = {
+	.seq_type = 1,  // CAMERA_POW_SEQ_GPIO
+	.seq_val = 0, //CAMERA_VDIG       
+	.config_val = 0,
+	.delay = 1,
+},
+.power_setting_a = {
+	.seq_type = 1,  // CAMERA_POW_SEQ_GPIO
+	.seq_val = 4, //CAMERA_V_CUSTOM1  
+	.config_val = 2,
+	.delay = 1,
+},
+.power_setting_a = {
+	.seq_type = 2,  // CAMERA_POW_SEQ_VREG
+	.seq_val = 2, //CAMERA_VANA       
+	.config_val = 0,
+	.delay = 0,
+},
+.power_setting_a = {
+	.seq_type = 1,  // CAMERA_POW_SEQ_GPIO
+	.seq_val = 5, //CAMERA_V_CUSTOM2  
+	.config_val = 2,
+	.delay = 1,
+},
+.power_setting_a = {
+	.seq_type = 2,  // CAMERA_POW_SEQ_VREG
+	.seq_val = 0, //CAMERA_VDIG       
+	.config_val = 0,
+	.delay = 0,
+},
+.power_setting_a = {
+	.seq_type = 2,  // CAMERA_POW_SEQ_VREG
+	.seq_val = 1, //CAMERA_VIO        
+	.config_val = 0,
+	.delay = 0,
+},
+.power_setting_a = {
+	.seq_type = 0,  // CAMERA_POW_SEQ_CLK
+	.seq_val = 0, //CAMERA_VDIG       
+	.config_val = 24000000,
+	.delay = 1,
+},
+.power_setting_a = {
+	.seq_type = 1,  // CAMERA_POW_SEQ_GPIO
+	.seq_val = 0, //CAMERA_VDIG       
+	.config_val = 2,
+	.delay = 18,
+},
+.size_down = 7,
+.power_down_setting_a = {
+	.seq_type = 0,  // CAMERA_POW_SEQ_CLK
+	.seq_val = 0, //CAMERA_VDIG       
+	.config_val = 0,
+	.delay = 1,
+},
+.power_down_setting_a = {
+	.seq_type = 1,  // CAMERA_POW_SEQ_GPIO
+	.seq_val = 0, //CAMERA_VDIG       
+	.config_val = 0,
+	.delay = 1,
+},
+.power_down_setting_a = {
+	.seq_type = 2,  // CAMERA_POW_SEQ_VREG
+	.seq_val = 1, //CAMERA_VIO        
+	.config_val = 0,
+	.delay = 0,
+},
+.power_down_setting_a = {
+	.seq_type = 2,  // CAMERA_POW_SEQ_VREG
+	.seq_val = 0, //CAMERA_VDIG       
+	.config_val = 0,
+	.delay = 0,
+},
+.power_down_setting_a = {
+	.seq_type = 1,  // CAMERA_POW_SEQ_GPIO
+	.seq_val = 5, //CAMERA_V_CUSTOM2  
+	.config_val = 0,
+	.delay = 1,
+},
+.power_down_setting_a = {
+	.seq_type = 2,  // CAMERA_POW_SEQ_VREG
+	.seq_val = 2, //CAMERA_VANA       
+	.config_val = 0,
+	.delay = 0,
+},
+.power_down_setting_a = {
+	.seq_type = 1,  // CAMERA_POW_SEQ_GPIO
+	.seq_val = 4, //CAMERA_V_CUSTOM1  
+	.config_val = 0,
+	.delay = 1,
+},
+sensor_output:
+  0000  00 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00  ................
+output_reg_addr:
+  0000  4c 03 4e 03 42 03 40 03 02 02 00 00 04 02 00 00  L.N.B.@.........
+.output_reg_addr.x_output           = 0x34c;
+.output_reg_addr.y_output           = 0x34e;
+.output_reg_addr.line_length_pclk   = 0x342;
+.output_reg_addr.frame_length_lines = 0x340;
+.exp_gain_info.coarse_int_time_addr              = 0x202 ;
+.exp_gain_info.short_coarse_int_time_addr        = 0x0 ;
+.exp_gain_info.global_gain_addr                  = 0x204 ;
+.exp_gain_info.short_global_gain_addr            = 0x0 ;
+.exp_gain_info.dig_gain_r_addr                   = 0x0 ;
+.exp_gain_info.dig_gain_gr_addr                  = 0x0 ;
+.exp_gain_info.dig_gain_b_addr                   = 0x0 ;
+.exp_gain_info.dig_gain_gb_addr                  = 0x0 ;
+.exp_gain_info.vert_offset                       = 0xa ;
+.aec_info.min_gain                         = 1.000000 ;
+.aec_info.max_gain                         = 16.000000 ;
+.aec_info.max_analog_gain                  = 8.000000 ;
+.aec_info.min_analog_gain                  = 0.000000 ;
+.aec_info.min_digital_gain                 = 0.000000 ;
+.aec_info.max_digital_gain                 = 0.000000 ;
+.aec_info.dig_gain_decimator               = 0 ;
+.aec_info.max_linecount                    = 65525 ;
+.aec_info.smia_type_gain_coeff.m0            = 0 ;
+.aec_info.smia_type_gain_coeff.m1            = 0 ;
+.aec_info.smia_type_gain_coeff.m2            = 0 ;
+.aec_info.smia_type_gain_coeff.c0            = 0 ;
+.aec_info.smia_type_gain_coeff.c1            = 0 ;
+.aec_info.smia_type_gain_coeff.c2            = 0 ;
+.aec_info.svhdr_use_separate_gain          = 0 ;
+.aec_info.svhdr_use_separate_limits        = 0 ;
+.aec_info.min_line_cnt[0]                  = 0 ;
+.aec_info.min_line_cnt[1]                  = 0 ;
+.aec_info.min_line_cnt[2]                  = 0 ;
+.aec_info.min_line_cnt[3]                  = 0 ;
+.aec_info.max_line_cnt[0]                  = 0 ;
+.aec_info.max_line_cnt[1]                  = 0 ;
+.aec_info.max_line_cnt[2]                  = 0 ;
+.aec_info.max_line_cnt[3]                  = 131073 ;
+.sensor_num_frame_skip           = 0x1 ;
+.ensor_num_HDR_frame_skip        = 0x2 ;
+.sensor_max_pipeline_frame_delay = 0x2 ;
+.sensor_property.crop_factor    =5.780000 ;
+.sensor_property.pix_size       =1.400000 ;
+.sensor_property.sensing_method = SENSOR_SMETHOD_ONE_CHIP_COLOR_AREA_SENSOR         ;
+.pixel_array_size_info.active_array_size.width  = 0xfc0;
+.pixel_array_size_info.active_array_size.height = 0xbd0;
+.color_level_info.white_level      = 1023 ; 
+.color_level_info.r_pedestal       = 64 ; 
+.color_level_info.gr_pedestal      = 64 ; 
+.color_level_info.gb_pedestal      = 64 ; 
+.color_level_info.b_pedestal       = 64 ; 
+.start_settings = {
+	.reg_setting_a = {  // index 0
+    	 	{0x100,	0x1,	0x0,},
+   		  	{},
+	},
+}, //end of .start_settings
+.stop_settings = {
+	.reg_setting_a = {  // index 0
+    	 	{0x100,	0x0,	0x0,},
+   		  	{},
+	},
+}, //end of .stop_settings
+.groupon_settings = {
+	.reg_setting_a = {  // index 0
+    	 	{0x104,	0x1,	0x0,},
+   		  	{},
+	},
+}, //end of .groupon_settings
+.groupoff_settings = {
+	.reg_setting_a = {  // index 0
+    	 	{0x104,	0x0,	0x0,},
+   		  	{},
+	},
+}, //end of .groupoff_settings
+.embedded_data_enable_settings = {
+	.reg_setting_a = {  // index 0
+   		  	{},
+	},
+}, //end of .embedded_data_enable_settings
+.embedded_data_disable_settings = {
+	.reg_setting_a = {  // index 0
+   		  	{},
+	},
+}, //end of .embedded_data_disable_settings
+.aec_enable_settings = {
+	.reg_setting_a = {  // index 0
+   		  	{},
+	},
+}, //end of .aec_enable_settings
+.aec_disable_settings = {
+	.reg_setting_a = {  // index 0
+   		  	{},
+	},
+}, //end of .aec_disable_settings
+.dualcam_master_settings = {
+	.reg_setting_a = {  // index 0
+   		  	{},
+	},
+}, //end of .dualcam_master_settings
+.dualcam_slave_settings = {
+	.reg_setting_a = {  // index 0
+   		  	{},
+	},
+}, //end of .dualcam_slave_settings
+//init_settings_array offset = 0x9f28;
+.init_settings_array = {
+.size = 1,
+    .reg_settings = {
+	.addr_type = 0x2, //   CAMERA_I2C_DATA_TYPE_MAX,                
+	.data_type = 0x1, //   CAMERA_I2C_BYTE_DATA = 1,                
+	.delay = 0x0,
+	.size = 0,
+	.reg_setting_a = {  // index 0, have 3000 reg max
+     	{0x136,	0x18,	0x0,},
+     	{0x137,	0x0,	0x0,},
+     	{0x31a3,	0x0,	0x0,},
+     	{0x5812,	0x4,	0x0,},
+     	{0x5813,	0x4,	0x0,},
+     	{0x58d0,	0x8,	0x0,},
+     	{0x5f20,	0x1,	0x0,},
+     	{0x5ff0,	0x0,	0x0,},
+     	{0x5ff1,	0xfe,	0x0,},
+     	{0x5ff2,	0x0,	0x0,},
+     	{0x5ff3,	0x52,	0x0,},
+     	{0x72e8,	0x96,	0x0,},
+     	{0x72e9,	0x59,	0x0,},
+     	{0x72ea,	0x65,	0x0,},
+     	{0x72fb,	0x2c,	0x0,},
+     	{0x737e,	0x2,	0x0,},
+     	{0x737f,	0x30,	0x0,},
+     	{0x7380,	0x28,	0x0,},
+     	{0x7381,	0x0,	0x0,},
+     	{0x7383,	0x2,	0x0,},
+     	{0x7384,	0x0,	0x0,},
+     	{0x7385,	0x0,	0x0,},
+     	{0x74cc,	0x0,	0x0,},
+     	{0x74cd,	0x55,	0x0,},
+     	{0x74d2,	0x0,	0x0,},
+     	{0x74d3,	0x52,	0x0,},
+     	{0x74da,	0x0,	0x0,},
+     	{0x74db,	0xfe,	0x0,},
+     	{0x9333,	0x3,	0x0,},
+     	{0x9334,	0x4,	0x0,},
+     	{0x9335,	0x5,	0x0,},
+     	{0x9346,	0x96,	0x0,},
+     	{0x934a,	0x8c,	0x0,},
+     	{0x9352,	0xaa,	0x0,},
+     	{0xb0b6,	0x5,	0x0,},
+     	{0xb0b7,	0x5,	0x0,},
+     	{0xb0b9,	0x5,	0x0,},
+     	{0xbc88,	0x6,	0x0,},
+     	{0xbc89,	0xd8,	0x0,},
+     	{0x30f2,	0x1,	0x0,},
+     	{},
+    }, //total 40 entries
+},
+//res_settings_array offset = 0x5c08c;
+.res_settings_array = {
+.size = 7,
+    .reg_settings = {
+	.addr_type = 0x2, //   CAMERA_I2C_DATA_TYPE_MAX,                
+	.data_type = 0x1, //   CAMERA_I2C_BYTE_DATA = 1,                
+	.delay = 0x0,
+	.size = 0,
+	.reg_setting_a = {  // index 0, have 3000 reg max
+     	{0x112,	0xa,	0x0,},
+     	{0x113,	0xa,	0x0,},
+     	{0x114,	0x3,	0x0,},
+     	{0x220,	0x0,	0x0,},
+     	{0x221,	0x11,	0x0,},
+     	{0x340,	0xc,	0x0,},
+     	{0x341,	0x40,	0x0,},
+     	{0x342,	0x22,	0x0,},
+     	{0x343,	0xe0,	0x0,},
+     	{0x381,	0x1,	0x0,},
+     	{0x383,	0x1,	0x0,},
+     	{0x385,	0x1,	0x0,},
+     	{0x387,	0x1,	0x0,},
+     	{0x900,	0x0,	0x0,},
+     	{0x901,	0x11,	0x0,},
+     	{0x30f4,	0x2,	0x0,},
+     	{0x30f5,	0x80,	0x0,},
+     	{0x30f6,	0x0,	0x0,},
+     	{0x30f7,	0x14,	0x0,},
+     	{0x31a0,	0x0,	0x0,},
+     	{0x31a5,	0x1,	0x0,},
+     	{0x31a6,	0x0,	0x0,},
+     	{0x560f,	0xbe,	0x0,},
+     	{0x344,	0x0,	0x0,},
+     	{0x345,	0x0,	0x0,},
+     	{0x346,	0x0,	0x0,},
+     	{0x347,	0x0,	0x0,},
+     	{0x348,	0xf,	0x0,},
+     	{0x349,	0xbf,	0x0,},
+     	{0x34a,	0xb,	0x0,},
+     	{0x34b,	0xcf,	0x0,},
+     	{0x34c,	0xf,	0x0,},
+     	{0x34d,	0xc0,	0x0,},
+     	{0x34e,	0xb,	0x0,},
+     	{0x34f,	0xd0,	0x0,},
+     	{0x408,	0x0,	0x0,},
+     	{0x409,	0x0,	0x0,},
+     	{0x40a,	0x0,	0x0,},
+     	{0x40b,	0x0,	0x0,},
+     	{0x40c,	0xf,	0x0,},
+     	{0x40d,	0xc0,	0x0,},
+     	{0x40e,	0xb,	0x0,},
+     	{0x40f,	0xd0,	0x0,},
+     	{0x301,	0x3,	0x0,},
+     	{0x303,	0x2,	0x0,},
+     	{0x305,	0x4,	0x0,},
+     	{0x306,	0x0,	0x0,},
+     	{0x307,	0xd2,	0x0,},
+     	{0x309,	0xa,	0x0,},
+     	{0x30b,	0x1,	0x0,},
+     	{0x30d,	0x4,	0x0,},
+     	{0x30e,	0x0,	0x0,},
+     	{0x30f,	0xdb,	0x0,},
+     	{0x310,	0x1,	0x0,},
+     	{},
+    }, //total 54 entries
+    .reg_settings = {
+	.addr_type = 0x2, //   CAMERA_I2C_DATA_TYPE_MAX,                
+	.data_type = 0x1, //   CAMERA_I2C_BYTE_DATA = 1,                
+	.delay = 0x0,
+	.size = 0,
+	.reg_setting_a = {  // index 1, have 3000 reg max
+     	{0x112,	0xa,	0x0,},
+     	{0x113,	0xa,	0x0,},
+     	{0x114,	0x3,	0x0,},
+     	{0x220,	0x0,	0x0,},
+     	{0x221,	0x11,	0x0,},
+     	{0x340,	0x9,	0x0,},
+     	{0x341,	0x56,	0x0,},
+     	{0x342,	0x16,	0x0,},
+     	{0x343,	0xe0,	0x0,},
+     	{0x381,	0x1,	0x0,},
+     	{0x383,	0x1,	0x0,},
+     	{0x385,	0x1,	0x0,},
+     	{0x387,	0x1,	0x0,},
+     	{0x900,	0x0,	0x0,},
+     	{0x901,	0x11,	0x0,},
+     	{0x30f4,	0x1,	0x0,},
+     	{0x30f5,	0xf4,	0x0,},
+     	{0x30f6,	0x0,	0x0,},
+     	{0x30f7,	0x14,	0x0,},
+     	{0x31a0,	0x0,	0x0,},
+     	{0x31a5,	0x1,	0x0,},
+     	{0x31a6,	0x0,	0x0,},
+     	{0x560f,	0xbe,	0x0,},
+     	{0x344,	0x0,	0x0,},
+     	{0x345,	0x0,	0x0,},
+     	{0x346,	0x1,	0x0,},
+     	{0x347,	0xf8,	0x0,},
+     	{0x348,	0xf,	0x0,},
+     	{0x349,	0xbf,	0x0,},
+     	{0x34a,	0x9,	0x0,},
+     	{0x34b,	0xd7,	0x0,},
+     	{0x34c,	0xf,	0x0,},
+     	{0x34d,	0xc0,	0x0,},
+     	{0x34e,	0x7,	0x0,},
+     	{0x34f,	0xe0,	0x0,},
+     	{0x408,	0x0,	0x0,},
+     	{0x409,	0x0,	0x0,},
+     	{0x40a,	0x0,	0x0,},
+     	{0x40b,	0x0,	0x0,},
+     	{0x40c,	0xf,	0x0,},
+     	{0x40d,	0xc0,	0x0,},
+     	{0x40e,	0x7,	0x0,},
+     	{0x40f,	0xe0,	0x0,},
+     	{0x301,	0x3,	0x0,},
+     	{0x303,	0x2,	0x0,},
+     	{0x305,	0x4,	0x0,},
+     	{0x306,	0x0,	0x0,},
+     	{0x307,	0x69,	0x0,},
+     	{0x309,	0xa,	0x0,},
+     	{0x30b,	0x1,	0x0,},
+     	{0x30d,	0x4,	0x0,},
+     	{0x30e,	0x0,	0x0,},
+     	{0x30f,	0xbf,	0x0,},
+     	{0x310,	0x1,	0x0,},
+     	{},
+    }, //total 54 entries
+    .reg_settings = {
+	.addr_type = 0x2, //   CAMERA_I2C_DATA_TYPE_MAX,                
+	.data_type = 0x1, //   CAMERA_I2C_BYTE_DATA = 1,                
+	.delay = 0x0,
+	.size = 0,
+	.reg_setting_a = {  // index 2, have 3000 reg max
+     	{0x112,	0xa,	0x0,},
+     	{0x113,	0xa,	0x0,},
+     	{0x114,	0x3,	0x0,},
+     	{0x220,	0x0,	0x0,},
+     	{0x221,	0x11,	0x0,},
+     	{0x340,	0x5,	0x0,},
+     	{0x341,	0x10,	0x0,},
+     	{0x342,	0x15,	0x0,},
+     	{0x343,	0x18,	0x0,},
+     	{0x381,	0x1,	0x0,},
+     	{0x383,	0x1,	0x0,},
+     	{0x385,	0x1,	0x0,},
+     	{0x387,	0x1,	0x0,},
+     	{0x900,	0x1,	0x0,},
+     	{0x901,	0x22,	0x0,},
+     	{0x30f4,	0x2,	0x0,},
+     	{0x30f5,	0x58,	0x0,},
+     	{0x30f6,	0x0,	0x0,},
+     	{0x30f7,	0x14,	0x0,},
+     	{0x31a0,	0x0,	0x0,},
+     	{0x31a5,	0x0,	0x0,},
+     	{0x31a6,	0x0,	0x0,},
+     	{0x560f,	0xff,	0x0,},
+     	{0x344,	0x0,	0x0,},
+     	{0x345,	0x60,	0x0,},
+     	{0x346,	0x1,	0x0,},
+     	{0x347,	0xb0,	0x0,},
+     	{0x348,	0xf,	0x0,},
+     	{0x349,	0x5f,	0x0,},
+     	{0x34a,	0xa,	0x0,},
+     	{0x34b,	0x1f,	0x0,},
+     	{0x34c,	0x7,	0x0,},
+     	{0x34d,	0x80,	0x0,},
+     	{0x34e,	0x4,	0x0,},
+     	{0x34f,	0x38,	0x0,},
+     	{0x408,	0x0,	0x0,},
+     	{0x409,	0x0,	0x0,},
+     	{0x40a,	0x0,	0x0,},
+     	{0x40b,	0x0,	0x0,},
+     	{0x40c,	0x7,	0x0,},
+     	{0x40d,	0x80,	0x0,},
+     	{0x40e,	0x4,	0x0,},
+     	{0x40f,	0x38,	0x0,},
+     	{0x301,	0x5,	0x0,},
+     	{0x303,	0x2,	0x0,},
+     	{0x305,	0x4,	0x0,},
+     	{0x306,	0x0,	0x0,},
+     	{0x307,	0x58,	0x0,},
+     	{0x309,	0xa,	0x0,},
+     	{0x30b,	0x1,	0x0,},
+     	{0x30d,	0x4,	0x0,},
+     	{0x30e,	0x0,	0x0,},
+     	{0x30f,	0xbf,	0x0,},
+     	{0x310,	0x1,	0x0,},
+     	{},
+    }, //total 54 entries
+    .reg_settings = {
+	.addr_type = 0x2, //   CAMERA_I2C_DATA_TYPE_MAX,                
+	.data_type = 0x1, //   CAMERA_I2C_BYTE_DATA = 1,                
+	.delay = 0x0,
+	.size = 0,
+	.reg_setting_a = {  // index 3, have 3000 reg max
+     	{0x112,	0xa,	0x0,},
+     	{0x113,	0xa,	0x0,},
+     	{0x114,	0x3,	0x0,},
+     	{0x220,	0x0,	0x0,},
+     	{0x221,	0x11,	0x0,},
+     	{0x340,	0x5,	0x0,},
+     	{0x341,	0x10,	0x0,},
+     	{0x342,	0x15,	0x0,},
+     	{0x343,	0x18,	0x0,},
+     	{0x381,	0x1,	0x0,},
+     	{0x383,	0x1,	0x0,},
+     	{0x385,	0x1,	0x0,},
+     	{0x387,	0x1,	0x0,},
+     	{0x900,	0x1,	0x0,},
+     	{0x901,	0x22,	0x0,},
+     	{0x30f4,	0x2,	0x0,},
+     	{0x30f5,	0x58,	0x0,},
+     	{0x30f6,	0x0,	0x0,},
+     	{0x30f7,	0x14,	0x0,},
+     	{0x31a0,	0x0,	0x0,},
+     	{0x31a5,	0x0,	0x0,},
+     	{0x31a6,	0x0,	0x0,},
+     	{0x560f,	0xff,	0x0,},
+     	{0x344,	0x0,	0x0,},
+     	{0x345,	0x60,	0x0,},
+     	{0x346,	0x1,	0x0,},
+     	{0x347,	0xb0,	0x0,},
+     	{0x348,	0xf,	0x0,},
+     	{0x349,	0x5f,	0x0,},
+     	{0x34a,	0xa,	0x0,},
+     	{0x34b,	0x1f,	0x0,},
+     	{0x34c,	0x7,	0x0,},
+     	{0x34d,	0x80,	0x0,},
+     	{0x34e,	0x4,	0x0,},
+     	{0x34f,	0x38,	0x0,},
+     	{0x408,	0x0,	0x0,},
+     	{0x409,	0x0,	0x0,},
+     	{0x40a,	0x0,	0x0,},
+     	{0x40b,	0x0,	0x0,},
+     	{0x40c,	0x7,	0x0,},
+     	{0x40d,	0x80,	0x0,},
+     	{0x40e,	0x4,	0x0,},
+     	{0x40f,	0x38,	0x0,},
+     	{0x301,	0x3,	0x0,},
+     	{0x303,	0x2,	0x0,},
+     	{0x305,	0x4,	0x0,},
+     	{0x306,	0x0,	0x0,},
+     	{0x307,	0x69,	0x0,},
+     	{0x309,	0xa,	0x0,},
+     	{0x30b,	0x1,	0x0,},
+     	{0x30d,	0x4,	0x0,},
+     	{0x30e,	0x0,	0x0,},
+     	{0x30f,	0xbf,	0x0,},
+     	{0x310,	0x1,	0x0,},
+     	{},
+    }, //total 54 entries
+    .reg_settings = {
+	.addr_type = 0x2, //   CAMERA_I2C_DATA_TYPE_MAX,                
+	.data_type = 0x1, //   CAMERA_I2C_BYTE_DATA = 1,                
+	.delay = 0x0,
+	.size = 0,
+	.reg_setting_a = {  // index 4, have 3000 reg max
+     	{0x112,	0xa,	0x0,},
+     	{0x113,	0xa,	0x0,},
+     	{0x114,	0x3,	0x0,},
+     	{0x220,	0x0,	0x0,},
+     	{0x221,	0x11,	0x0,},
+     	{0x340,	0x5,	0x0,},
+     	{0x341,	0x10,	0x0,},
+     	{0x342,	0x15,	0x0,},
+     	{0x343,	0x18,	0x0,},
+     	{0x381,	0x1,	0x0,},
+     	{0x383,	0x1,	0x0,},
+     	{0x385,	0x1,	0x0,},
+     	{0x387,	0x1,	0x0,},
+     	{0x900,	0x1,	0x0,},
+     	{0x901,	0x22,	0x0,},
+     	{0x30f4,	0x2,	0x0,},
+     	{0x30f5,	0x58,	0x0,},
+     	{0x30f6,	0x0,	0x0,},
+     	{0x30f7,	0x14,	0x0,},
+     	{0x31a0,	0x0,	0x0,},
+     	{0x31a5,	0x0,	0x0,},
+     	{0x31a6,	0x0,	0x0,},
+     	{0x560f,	0xff,	0x0,},
+     	{0x344,	0x0,	0x0,},
+     	{0x345,	0x60,	0x0,},
+     	{0x346,	0x1,	0x0,},
+     	{0x347,	0xb0,	0x0,},
+     	{0x348,	0xf,	0x0,},
+     	{0x349,	0x5f,	0x0,},
+     	{0x34a,	0xa,	0x0,},
+     	{0x34b,	0x1f,	0x0,},
+     	{0x34c,	0x7,	0x0,},
+     	{0x34d,	0x80,	0x0,},
+     	{0x34e,	0x4,	0x0,},
+     	{0x34f,	0x38,	0x0,},
+     	{0x408,	0x0,	0x0,},
+     	{0x409,	0x0,	0x0,},
+     	{0x40a,	0x0,	0x0,},
+     	{0x40b,	0x0,	0x0,},
+     	{0x40c,	0x7,	0x0,},
+     	{0x40d,	0x80,	0x0,},
+     	{0x40e,	0x4,	0x0,},
+     	{0x40f,	0x38,	0x0,},
+     	{0x301,	0x3,	0x0,},
+     	{0x303,	0x2,	0x0,},
+     	{0x305,	0x4,	0x0,},
+     	{0x306,	0x0,	0x0,},
+     	{0x307,	0xd2,	0x0,},
+     	{0x309,	0xa,	0x0,},
+     	{0x30b,	0x1,	0x0,},
+     	{0x30d,	0x4,	0x0,},
+     	{0x30e,	0x0,	0x0,},
+     	{0x30f,	0xbf,	0x0,},
+     	{0x310,	0x1,	0x0,},
+     	{},
+    }, //total 54 entries
+    .reg_settings = {
+	.addr_type = 0x2, //   CAMERA_I2C_DATA_TYPE_MAX,                
+	.data_type = 0x1, //   CAMERA_I2C_BYTE_DATA = 1,                
+	.delay = 0x0,
+	.size = 0,
+	.reg_setting_a = {  // index 5, have 3000 reg max
+     	{0x112,	0xa,	0x0,},
+     	{0x113,	0xa,	0x0,},
+     	{0x114,	0x3,	0x0,},
+     	{0x220,	0x61,	0x0,},
+     	{0x221,	0x11,	0x0,},
+     	{0x340,	0xc,	0x0,},
+     	{0x341,	0x40,	0x0,},
+     	{0x342,	0x22,	0x0,},
+     	{0x343,	0xe0,	0x0,},
+     	{0x381,	0x1,	0x0,},
+     	{0x383,	0x1,	0x0,},
+     	{0x385,	0x1,	0x0,},
+     	{0x387,	0x1,	0x0,},
+     	{0x900,	0x0,	0x0,},
+     	{0x901,	0x11,	0x0,},
+     	{0x30f4,	0x2,	0x0,},
+     	{0x30f5,	0x80,	0x0,},
+     	{0x30f6,	0x0,	0x0,},
+     	{0x30f7,	0x14,	0x0,},
+     	{0x31a0,	0x0,	0x0,},
+     	{0x31a5,	0x1,	0x0,},
+     	{0x31a6,	0x0,	0x0,},
+     	{0x560f,	0xbe,	0x0,},
+     	{0x344,	0x0,	0x0,},
+     	{0x345,	0x0,	0x0,},
+     	{0x346,	0x0,	0x0,},
+     	{0x347,	0x0,	0x0,},
+     	{0x348,	0xf,	0x0,},
+     	{0x349,	0xbf,	0x0,},
+     	{0x34a,	0xb,	0x0,},
+     	{0x34b,	0xcf,	0x0,},
+     	{0x34c,	0xf,	0x0,},
+     	{0x34d,	0xc0,	0x0,},
+     	{0x34e,	0xb,	0x0,},
+     	{0x34f,	0xd0,	0x0,},
+     	{0x408,	0x0,	0x0,},
+     	{0x409,	0x0,	0x0,},
+     	{0x40a,	0x0,	0x0,},
+     	{0x40b,	0x0,	0x0,},
+     	{0x40c,	0xf,	0x0,},
+     	{0x40d,	0xc0,	0x0,},
+     	{0x40e,	0xb,	0x0,},
+     	{0x40f,	0xd0,	0x0,},
+     	{0x301,	0x3,	0x0,},
+     	{0x303,	0x2,	0x0,},
+     	{0x305,	0x4,	0x0,},
+     	{0x306,	0x0,	0x0,},
+     	{0x307,	0xd2,	0x0,},
+     	{0x309,	0xa,	0x0,},
+     	{0x30b,	0x1,	0x0,},
+     	{0x30d,	0x4,	0x0,},
+     	{0x30e,	0x0,	0x0,},
+     	{0x30f,	0xdb,	0x0,},
+     	{0x310,	0x1,	0x0,},
+     	{},
+    }, //total 54 entries
+    .reg_settings = {
+	.addr_type = 0x2, //   CAMERA_I2C_DATA_TYPE_MAX,                
+	.data_type = 0x1, //   CAMERA_I2C_BYTE_DATA = 1,                
+	.delay = 0x0,
+	.size = 0,
+	.reg_setting_a = {  // index 6, have 3000 reg max
+     	{0x112,	0xa,	0x0,},
+     	{0x113,	0xa,	0x0,},
+     	{0x114,	0x3,	0x0,},
+     	{0x220,	0x61,	0x0,},
+     	{0x221,	0x11,	0x0,},
+     	{0x340,	0x9,	0x0,},
+     	{0x341,	0x56,	0x0,},
+     	{0x342,	0x22,	0x0,},
+     	{0x343,	0xe0,	0x0,},
+     	{0x381,	0x1,	0x0,},
+     	{0x383,	0x1,	0x0,},
+     	{0x385,	0x1,	0x0,},
+     	{0x387,	0x1,	0x0,},
+     	{0x900,	0x0,	0x0,},
+     	{0x901,	0x11,	0x0,},
+     	{0x30f4,	0x2,	0x0,},
+     	{0x30f5,	0x80,	0x0,},
+     	{0x30f6,	0x0,	0x0,},
+     	{0x30f7,	0x14,	0x0,},
+     	{0x31a0,	0x0,	0x0,},
+     	{0x31a5,	0x1,	0x0,},
+     	{0x31a6,	0x0,	0x0,},
+     	{0x560f,	0xbe,	0x0,},
+     	{0x344,	0x0,	0x0,},
+     	{0x345,	0x0,	0x0,},
+     	{0x346,	0x1,	0x0,},
+     	{0x347,	0xf8,	0x0,},
+     	{0x348,	0xf,	0x0,},
+     	{0x349,	0xbf,	0x0,},
+     	{0x34a,	0x9,	0x0,},
+     	{0x34b,	0xd7,	0x0,},
+     	{0x34c,	0xf,	0x0,},
+     	{0x34d,	0xc0,	0x0,},
+     	{0x34e,	0x7,	0x0,},
+     	{0x34f,	0xe0,	0x0,},
+     	{0x408,	0x0,	0x0,},
+     	{0x409,	0x0,	0x0,},
+     	{0x40a,	0x0,	0x0,},
+     	{0x40b,	0x0,	0x0,},
+     	{0x40c,	0xf,	0x0,},
+     	{0x40d,	0xc0,	0x0,},
+     	{0x40e,	0x7,	0x0,},
+     	{0x40f,	0xe0,	0x0,},
+     	{0x301,	0x3,	0x0,},
+     	{0x303,	0x2,	0x0,},
+     	{0x305,	0x4,	0x0,},
+     	{0x306,	0x0,	0x0,},
+     	{0x307,	0xa1,	0x0,},
+     	{0x309,	0xa,	0x0,},
+     	{0x30b,	0x1,	0x0,},
+     	{0x30d,	0x4,	0x0,},
+     	{0x30e,	0x0,	0x0,},
+     	{0x30f,	0xbf,	0x0,},
+     	{0x310,	0x1,	0x0,},
+     	{},
+    }, //total 54 entries
+},
+.out_info_array.out_info[0].x_output            = 4032    ;  
+.out_info_array.out_info[0].y_output            = 3024    ;  
+.out_info_array.out_info[0].line_length_pclk    = 8928    ;  
+.out_info_array.out_info[0].frame_length_lines  = 3136    ;  
+.out_info_array.out_info[0].vt_pixel_clk        = 0    ;  
+.out_info_array.out_info[0].op_pixel_clk        = 525600000    ;  
+.out_info_array.out_info[0].binning_factor      = 1    ;  
+.out_info_array.out_info[0].binning_method      = 0    ;  
+.out_info_array.out_info[0].min_fps             = 0    ;  
+.out_info_array.out_info[0].max_fps             = 0    ;  
+.out_info_array.out_info[0].mode                = 1    ;  
+.out_info_array.out_info[0].offset_x            = 0    ;  
+.out_info_array.out_info[0].offset_y            = 0    ;  
+.out_info_array.out_info[0].scale_factor        = 0    ;  
+.out_info_array.out_info[0].is_pdaf_supported   = 1    ;  
+.out_info_array.out_info[0].min_hbi             = 437    ;  
+.out_info_array.out_info[0].min_vbi             = 106    ;  
+.out_info_array.out_info[0].custom_format.enable   		   = 0    ;  
+.out_info_array.out_info[0].custom_format.subframes_cnt    = 0    ;  
+.out_info_array.out_info[0].custom_format.start_x          = 0    ;  
+.out_info_array.out_info[0].custom_format.start_y          = 0    ;  
+.out_info_array.out_info[0].custom_format.width            = 0    ;  
+.out_info_array.out_info[0].custom_format.height           = 0    ;  
+.out_info_array.out_info[1].x_output            = 0    ;  
+.out_info_array.out_info[1].y_output            = 0    ;  
+.out_info_array.out_info[1].line_length_pclk    = 0    ;  
+.out_info_array.out_info[1].frame_length_lines  = 0    ;  
+.out_info_array.out_info[1].vt_pixel_clk        = 132124608    ;  
+.out_info_array.out_info[1].op_pixel_clk        = 156636896    ;  
+.out_info_array.out_info[1].binning_factor      = 0    ;  
+.out_info_array.out_info[1].binning_method      = 0    ;  
+.out_info_array.out_info[1].min_fps             = 1    ;  
+.out_info_array.out_info[1].max_fps             = 0    ;  
+.out_info_array.out_info[1].mode                = 0    ;  
+.out_info_array.out_info[1].offset_x            = 1077805056    ;  
+.out_info_array.out_info[1].offset_y            = 1    ;  
+.out_info_array.out_info[1].scale_factor        = 0    ;  
+.out_info_array.out_info[1].is_pdaf_supported   = 0    ;  
+.out_info_array.out_info[1].min_hbi             = 0    ;  
+.out_info_array.out_info[1].min_vbi             = 0    ;  
+.out_info_array.out_info[1].custom_format.enable   		   = 1    ;  
+.out_info_array.out_info[1].custom_format.subframes_cnt    = 24118329    ;  
+.out_info_array.out_info[1].custom_format.start_x          = 0    ;  
+.out_info_array.out_info[1].custom_format.start_y          = 0    ;  
+.out_info_array.out_info[1].custom_format.width            = 0    ;  
+.out_info_array.out_info[1].custom_format.height           = 0    ;  
+.out_info_array.out_info[2].x_output            = 0    ;  
+.out_info_array.out_info[2].y_output            = 0    ;  
+.out_info_array.out_info[2].line_length_pclk    = 0    ;  
+.out_info_array.out_info[2].frame_length_lines  = 0    ;  
+.out_info_array.out_info[2].vt_pixel_clk        = 0    ;  
+.out_info_array.out_info[2].op_pixel_clk        = 0    ;  
+.out_info_array.out_info[2].binning_factor      = 1920    ;  
+.out_info_array.out_info[2].binning_method      = 1080    ;  
+.out_info_array.out_info[2].min_fps             = 0    ;  
+.out_info_array.out_info[2].max_fps             = 2    ;  
+.out_info_array.out_info[2].mode                = 0    ;  
+.out_info_array.out_info[2].offset_x            = 1075707904    ;  
+.out_info_array.out_info[2].offset_y            = 515396076    ;  
+.out_info_array.out_info[2].scale_factor        = -1610612736    ;  
+.out_info_array.out_info[2].is_pdaf_supported   = 1    ;  
+.out_info_array.out_info[2].min_hbi             = 0    ;  
+.out_info_array.out_info[2].min_vbi             = 0    ;  
+.out_info_array.out_info[2].custom_format.enable   		   = 0    ;  
+.out_info_array.out_info[2].custom_format.subframes_cnt    = 0    ;  
+.out_info_array.out_info[2].custom_format.start_x          = 1    ;  
+.out_info_array.out_info[2].custom_format.start_y          = 13770016    ;  
+.out_info_array.out_info[2].custom_format.width            = 0    ;  
+.out_info_array.out_info[2].custom_format.height           = 0    ;  
+.out_info_array.out_info[3].x_output            = 0    ;  
+.out_info_array.out_info[3].y_output            = 0    ;  
+.out_info_array.out_info[3].line_length_pclk    = 0    ;  
+.out_info_array.out_info[3].frame_length_lines  = 0    ;  
+.out_info_array.out_info[3].vt_pixel_clk        = 0    ;  
+.out_info_array.out_info[3].op_pixel_clk        = 0    ;  
+.out_info_array.out_info[3].binning_factor      = 0    ;  
+.out_info_array.out_info[3].binning_method      = 0    ;  
+.out_info_array.out_info[3].min_fps             = 70780800    ;  
+.out_info_array.out_info[3].max_fps             = 0    ;  
+.out_info_array.out_info[3].mode                = 2    ;  
+.out_info_array.out_info[3].offset_x            = 0    ;  
+.out_info_array.out_info[3].offset_y            = 0    ;  
+.out_info_array.out_info[3].scale_factor        = 0    ;  
+.out_info_array.out_info[3].is_pdaf_supported   = -1374389535    ;  
+.out_info_array.out_info[3].min_hbi             = 327    ;  
+.out_info_array.out_info[3].min_vbi             = 16462    ;  
+.out_info_array.out_info[3].custom_format.enable   		   = 3    ;  
+.out_info_array.out_info[3].custom_format.subframes_cnt    = 0    ;  
+.out_info_array.out_info[3].custom_format.start_x          = 0    ;  
+.out_info_array.out_info[3].custom_format.start_y          = 0    ;  
+.out_info_array.out_info[3].custom_format.width            = 1    ;  
+.out_info_array.out_info[3].custom_format.height           = 13765355    ;  
+.out_info_array.out_info[4].x_output            = 0    ;  
+.out_info_array.out_info[4].y_output            = 0    ;  
+.out_info_array.out_info[4].line_length_pclk    = 0    ;  
+.out_info_array.out_info[4].frame_length_lines  = 0    ;  
+.out_info_array.out_info[4].vt_pixel_clk        = 0    ;  
+.out_info_array.out_info[4].op_pixel_clk        = 0    ;  
+.out_info_array.out_info[4].binning_factor      = 0    ;  
+.out_info_array.out_info[4].binning_method      = 0    ;  
+.out_info_array.out_info[4].min_fps             = 0    ;  
+.out_info_array.out_info[4].max_fps             = 70780800    ;  
+.out_info_array.out_info[4].mode                = 0    ;  
+.out_info_array.out_info[4].offset_x            = 458400000    ;  
+.out_info_array.out_info[4].offset_y            = 2    ;  
+.out_info_array.out_info[4].scale_factor        = 0    ;  
+.out_info_array.out_info[4].is_pdaf_supported   = 0    ;  
+.out_info_array.out_info[4].min_hbi             = 0    ;  
+.out_info_array.out_info[4].min_vbi             = 16414    ;  
+.out_info_array.out_info[4].custom_format.enable   		   = 31457    ;  
+.out_info_array.out_info[4].custom_format.subframes_cnt    = 1079902535    ;  
+.out_info_array.out_info[4].custom_format.start_x          = 2    ;  
+.out_info_array.out_info[4].custom_format.start_y          = 0    ;  
+.out_info_array.out_info[4].custom_format.width            = 0    ;  
+.out_info_array.out_info[4].custom_format.height           = 0    ;  
+.out_info_array.out_info[5].x_output            = 1    ;  
+.out_info_array.out_info[5].y_output            = 0    ;  
+.out_info_array.out_info[5].line_length_pclk    = 437    ;  
+.out_info_array.out_info[5].frame_length_lines  = 210    ;  
+.out_info_array.out_info[5].vt_pixel_clk        = 0    ;  
+.out_info_array.out_info[5].op_pixel_clk        = 0    ;  
+.out_info_array.out_info[5].binning_factor      = 0    ;  
+.out_info_array.out_info[5].binning_method      = 0    ;  
+.out_info_array.out_info[5].min_fps             = 0    ;  
+.out_info_array.out_info[5].max_fps             = 0    ;  
+.out_info_array.out_info[5].mode                = 198184896    ;  
+.out_info_array.out_info[5].offset_x            = 205529824    ;  
+.out_info_array.out_info[5].offset_y            = 0    ;  
+.out_info_array.out_info[5].scale_factor        = 0    ;  
+.out_info_array.out_info[5].is_pdaf_supported   = 1    ;  
+.out_info_array.out_info[5].min_hbi             = 0    ;  
+.out_info_array.out_info[5].min_vbi             = 0    ;  
+.out_info_array.out_info[5].custom_format.enable   		   = 0    ;  
+.out_info_array.out_info[5].custom_format.subframes_cnt    = 1075707904    ;  
+.out_info_array.out_info[5].custom_format.start_x          = 0    ;  
+.out_info_array.out_info[5].custom_format.start_y          = 1077805056    ;  
+.out_info_array.out_info[5].custom_format.width            = 8    ;  
+.out_info_array.out_info[5].custom_format.height           = 0    ;  
+.out_info_array.out_info[6].x_output            = 0    ;  
+.out_info_array.out_info[6].y_output            = 0    ;  
+.out_info_array.out_info[6].line_length_pclk    = 0    ;  
+.out_info_array.out_info[6].frame_length_lines  = 0    ;  
+.out_info_array.out_info[6].vt_pixel_clk        = 1    ;  
+.out_info_array.out_info[6].op_pixel_clk        = 6947253    ;  
+.out_info_array.out_info[6].binning_factor      = 0    ;  
+.out_info_array.out_info[6].binning_method      = 0    ;  
+.out_info_array.out_info[6].min_fps             = 0    ;  
+.out_info_array.out_info[6].max_fps             = 0    ;  
+.out_info_array.out_info[6].mode                = 0    ;  
+.out_info_array.out_info[6].offset_x            = 0    ;  
+.out_info_array.out_info[6].offset_y            = 132124608    ;  
+.out_info_array.out_info[6].scale_factor        = 0    ;  
+.out_info_array.out_info[6].is_pdaf_supported   = 0    ;  
+.out_info_array.out_info[6].min_hbi             = 41216    ;  
+.out_info_array.out_info[6].min_vbi             = 6994    ;  
+.out_info_array.out_info[6].custom_format.enable   		   = 1    ;  
+.out_info_array.out_info[6].custom_format.subframes_cnt    = 0    ;  
+.out_info_array.out_info[6].custom_format.start_x          = 0    ;  
+.out_info_array.out_info[6].custom_format.start_y          = 1075707904    ;  
+.out_info_array.out_info[6].custom_format.width            = 2061584302    ;  
+.out_info_array.out_info[6].custom_format.height           = 1077816852    ;  
+.out_info_array.out_info[7].x_output            = 8    ;  
+.out_info_array.out_info[7].y_output            = 0    ;  
+.out_info_array.out_info[7].line_length_pclk    = 0    ;  
+.out_info_array.out_info[7].frame_length_lines  = 0    ;  
+.out_info_array.out_info[7].vt_pixel_clk        = 0    ;  
+.out_info_array.out_info[7].op_pixel_clk        = 0    ;  
+.out_info_array.out_info[7].binning_factor      = 1    ;  
+.out_info_array.out_info[7].binning_method      = 0    ;  
+.out_info_array.out_info[7].min_fps             = 0    ;  
+.out_info_array.out_info[7].max_fps             = 0    ;  
+.out_info_array.out_info[7].mode                = 0    ;  
+.out_info_array.out_info[7].offset_x            = 0    ;  
+.out_info_array.out_info[7].offset_y            = 0    ;  
+.out_info_array.out_info[7].scale_factor        = 0    ;  
+.out_info_array.out_info[7].is_pdaf_supported   = 0    ;  
+.out_info_array.out_info[7].min_hbi             = 0    ;  
+.out_info_array.out_info[7].min_vbi             = 0    ;  
+.out_info_array.out_info[7].custom_format.enable   		   = 0    ;  
+.out_info_array.out_info[7].custom_format.subframes_cnt    = 0    ;  
+.out_info_array.out_info[7].custom_format.start_x          = 0    ;  
+.out_info_array.out_info[7].custom_format.start_y          = 0    ;  
+.out_info_array.out_info[7].custom_format.width            = 0    ;  
+.out_info_array.out_info[7].custom_format.height           = 0    ;  
+.out_info_array.out_info[8].x_output            = 0    ;  
+.out_info_array.out_info[8].y_output            = 0    ;  
+.out_info_array.out_info[8].line_length_pclk    = 0    ;  
+.out_info_array.out_info[8].frame_length_lines  = 0    ;  
+.out_info_array.out_info[8].vt_pixel_clk        = 0    ;  
+.out_info_array.out_info[8].op_pixel_clk        = 0    ;  
+.out_info_array.out_info[8].binning_factor      = 0    ;  
+.out_info_array.out_info[8].binning_method      = 0    ;  
+.out_info_array.out_info[8].min_fps             = 0    ;  
+.out_info_array.out_info[8].max_fps             = 0    ;  
+.out_info_array.out_info[8].mode                = 0    ;  
+.out_info_array.out_info[8].offset_x            = 0    ;  
+.out_info_array.out_info[8].offset_y            = 0    ;  
+.out_info_array.out_info[8].scale_factor        = 0    ;  
+.out_info_array.out_info[8].is_pdaf_supported   = 0    ;  
+.out_info_array.out_info[8].min_hbi             = 0    ;  
+.out_info_array.out_info[8].min_vbi             = 0    ;  
+.out_info_array.out_info[8].custom_format.enable   		   = 0    ;  
+.out_info_array.out_info[8].custom_format.subframes_cnt    = 0    ;  
+.out_info_array.out_info[8].custom_format.start_x          = 0    ;  
+.out_info_array.out_info[8].custom_format.start_y          = 0    ;  
+.out_info_array.out_info[8].custom_format.width            = 0    ;  
+.out_info_array.out_info[8].custom_format.height           = 0    ;  
+.out_info_array.out_info[9].x_output            = 0    ;  
+.out_info_array.out_info[9].y_output            = 0    ;  
+.out_info_array.out_info[9].line_length_pclk    = 0    ;  
+.out_info_array.out_info[9].frame_length_lines  = 0    ;  
+.out_info_array.out_info[9].vt_pixel_clk        = 0    ;  
+.out_info_array.out_info[9].op_pixel_clk        = 0    ;  
+.out_info_array.out_info[9].binning_factor      = 0    ;  
+.out_info_array.out_info[9].binning_method      = 0    ;  
+.out_info_array.out_info[9].min_fps             = 0    ;  
+.out_info_array.out_info[9].max_fps             = 0    ;  
+.out_info_array.out_info[9].mode                = 0    ;  
+.out_info_array.out_info[9].offset_x            = 0    ;  
+.out_info_array.out_info[9].offset_y            = 0    ;  
+.out_info_array.out_info[9].scale_factor        = 0    ;  
+.out_info_array.out_info[9].is_pdaf_supported   = 0    ;  
+.out_info_array.out_info[9].min_hbi             = 0    ;  
+.out_info_array.out_info[9].min_vbi             = 0    ;  
+.out_info_array.out_info[9].custom_format.enable   		   = 0    ;  
+.out_info_array.out_info[9].custom_format.subframes_cnt    = 0    ;  
+.out_info_array.out_info[9].custom_format.start_x          = 0    ;  
+.out_info_array.out_info[9].custom_format.start_y          = 0    ;  
+.out_info_array.out_info[9].custom_format.width            = 0    ;  
+.out_info_array.out_info[9].custom_format.height           = 0    ;  
+.out_info_array.out_info[10].x_output            = 0    ;  
+.out_info_array.out_info[10].y_output            = 0    ;  
+.out_info_array.out_info[10].line_length_pclk    = 0    ;  
+.out_info_array.out_info[10].frame_length_lines  = 0    ;  
+.out_info_array.out_info[10].vt_pixel_clk        = 0    ;  
+.out_info_array.out_info[10].op_pixel_clk        = 0    ;  
+.out_info_array.out_info[10].binning_factor      = 0    ;  
+.out_info_array.out_info[10].binning_method      = 0    ;  
+.out_info_array.out_info[10].min_fps             = 0    ;  
+.out_info_array.out_info[10].max_fps             = 0    ;  
+.out_info_array.out_info[10].mode                = 0    ;  
+.out_info_array.out_info[10].offset_x            = 0    ;  
+.out_info_array.out_info[10].offset_y            = 0    ;  
+.out_info_array.out_info[10].scale_factor        = 0    ;  
+.out_info_array.out_info[10].is_pdaf_supported   = 0    ;  
+.out_info_array.out_info[10].min_hbi             = 0    ;  
+.out_info_array.out_info[10].min_vbi             = 0    ;  
+.out_info_array.out_info[10].custom_format.enable   		   = 0    ;  
+.out_info_array.out_info[10].custom_format.subframes_cnt    = 0    ;  
+.out_info_array.out_info[10].custom_format.start_x          = 0    ;  
+.out_info_array.out_info[10].custom_format.start_y          = 0    ;  
+.out_info_array.out_info[10].custom_format.width            = 0    ;  
+.out_info_array.out_info[10].custom_format.height           = 0    ;  
+.out_info_array.out_info[11].x_output            = 0    ;  
+.out_info_array.out_info[11].y_output            = 0    ;  
+.out_info_array.out_info[11].line_length_pclk    = 0    ;  
+.out_info_array.out_info[11].frame_length_lines  = 0    ;  
+.out_info_array.out_info[11].vt_pixel_clk        = 0    ;  
+.out_info_array.out_info[11].op_pixel_clk        = 0    ;  
+.out_info_array.out_info[11].binning_factor      = 0    ;  
+.out_info_array.out_info[11].binning_method      = 0    ;  
+.out_info_array.out_info[11].min_fps             = 0    ;  
+.out_info_array.out_info[11].max_fps             = 0    ;  
+.out_info_array.out_info[11].mode                = 0    ;  
+.out_info_array.out_info[11].offset_x            = 0    ;  
+.out_info_array.out_info[11].offset_y            = 0    ;  
+.out_info_array.out_info[11].scale_factor        = 0    ;  
+.out_info_array.out_info[11].is_pdaf_supported   = 0    ;  
+.out_info_array.out_info[11].min_hbi             = 0    ;  
+.out_info_array.out_info[11].min_vbi             = 0    ;  
+.out_info_array.out_info[11].custom_format.enable   		   = 0    ;  
+.out_info_array.out_info[11].custom_format.subframes_cnt    = 0    ;  
+.out_info_array.out_info[11].custom_format.start_x          = 0    ;  
+.out_info_array.out_info[11].custom_format.start_y          = 0    ;  
+.out_info_array.out_info[11].custom_format.width            = 0    ;  
+.out_info_array.out_info[11].custom_format.height           = 0    ;  
+.out_info_array.out_info[12].x_output            = 0    ;  
+.out_info_array.out_info[12].y_output            = 0    ;  
+.out_info_array.out_info[12].line_length_pclk    = 0    ;  
+.out_info_array.out_info[12].frame_length_lines  = 0    ;  
+.out_info_array.out_info[12].vt_pixel_clk        = 0    ;  
+.out_info_array.out_info[12].op_pixel_clk        = 0    ;  
+.out_info_array.out_info[12].binning_factor      = 0    ;  
+.out_info_array.out_info[12].binning_method      = 0    ;  
+.out_info_array.out_info[12].min_fps             = 0    ;  
+.out_info_array.out_info[12].max_fps             = 0    ;  
+.out_info_array.out_info[12].mode                = 0    ;  
+.out_info_array.out_info[12].offset_x            = 0    ;  
+.out_info_array.out_info[12].offset_y            = 0    ;  
+.out_info_array.out_info[12].scale_factor        = 0    ;  
+.out_info_array.out_info[12].is_pdaf_supported   = 0    ;  
+.out_info_array.out_info[12].min_hbi             = 0    ;  
+.out_info_array.out_info[12].min_vbi             = 0    ;  
+.out_info_array.out_info[12].custom_format.enable   		   = 0    ;  
+.out_info_array.out_info[12].custom_format.subframes_cnt    = 0    ;  
+.out_info_array.out_info[12].custom_format.start_x          = 0    ;  
+.out_info_array.out_info[12].custom_format.start_y          = 0    ;  
+.out_info_array.out_info[12].custom_format.width            = 0    ;  
+.out_info_array.out_info[12].custom_format.height           = 0    ;  
+.out_info_array.out_info[13].x_output            = 0    ;  
+.out_info_array.out_info[13].y_output            = 0    ;  
+.out_info_array.out_info[13].line_length_pclk    = 0    ;  
+.out_info_array.out_info[13].frame_length_lines  = 0    ;  
+.out_info_array.out_info[13].vt_pixel_clk        = 0    ;  
+.out_info_array.out_info[13].op_pixel_clk        = 0    ;  
+.out_info_array.out_info[13].binning_factor      = 0    ;  
+.out_info_array.out_info[13].binning_method      = 0    ;  
+.out_info_array.out_info[13].min_fps             = 0    ;  
+.out_info_array.out_info[13].max_fps             = 0    ;  
+.out_info_array.out_info[13].mode                = 0    ;  
+.out_info_array.out_info[13].offset_x            = 0    ;  
+.out_info_array.out_info[13].offset_y            = 0    ;  
+.out_info_array.out_info[13].scale_factor        = 0    ;  
+.out_info_array.out_info[13].is_pdaf_supported   = 0    ;  
+.out_info_array.out_info[13].min_hbi             = 0    ;  
+.out_info_array.out_info[13].min_vbi             = 0    ;  
+.out_info_array.out_info[13].custom_format.enable   		   = 0    ;  
+.out_info_array.out_info[13].custom_format.subframes_cnt    = 0    ;  
+.out_info_array.out_info[13].custom_format.start_x          = 0    ;  
+.out_info_array.out_info[13].custom_format.start_y          = 0    ;  
+.out_info_array.out_info[13].custom_format.width            = 0    ;  
+.out_info_array.out_info[13].custom_format.height           = 0    ;  
+.csi_params.lane_cnt      = 0;
+.csi_params.settle_cnt    = 0;
+.csi_params.is_csi_3phase = 0;
+.csid_lut_params_array.size = 0;
+.crop_params_array.size     = 0;
+.exposure_func_table.calc_exp_array_type = 0;//CALC_CUSTOM_IN_LIB ;
+.exposure_func_table.fill_exp_array_type = 0;//FILL_CUSTOM_IN_LIB           ;
+.meta_data_out_info_array.size = 0 ;
+.meta_data_out_info_array.meta_data_out_info[0].width           = 0;
+.meta_data_out_info_array.meta_data_out_info[0].height          = 0;
+.meta_data_out_info_array.meta_data_out_info[0].stats_type      = 0;// HDR_STATS             
+.meta_data_out_info_array.meta_data_out_info[0].dt              = 0;
+.meta_data_out_info_array.meta_data_out_info[0].cid             = 0;
+.meta_data_out_info_array.meta_data_out_info[1].width           = 0;
+.meta_data_out_info_array.meta_data_out_info[1].height          = 0;
+.meta_data_out_info_array.meta_data_out_info[1].stats_type      = 0;// HDR_STATS             
+.meta_data_out_info_array.meta_data_out_info[1].dt              = 0;
+.meta_data_out_info_array.meta_data_out_info[1].cid             = 0;
+.meta_data_out_info_array.meta_data_out_info[2].width           = 0;
+.meta_data_out_info_array.meta_data_out_info[2].height          = 0;
+.meta_data_out_info_array.meta_data_out_info[2].stats_type      = 0;// HDR_STATS             
+.meta_data_out_info_array.meta_data_out_info[2].dt              = 0;
+.meta_data_out_info_array.meta_data_out_info[2].cid             = 0;
+.meta_data_out_info_array.meta_data_out_info[3].width           = 0;
+.meta_data_out_info_array.meta_data_out_info[3].height          = 0;
+.meta_data_out_info_array.meta_data_out_info[3].stats_type      = 0;// HDR_STATS             
+.meta_data_out_info_array.meta_data_out_info[3].dt              = 0;
+.meta_data_out_info_array.meta_data_out_info[3].cid             = 0;
+.meta_data_out_info_array.meta_data_out_info[4].width           = 0;
+.meta_data_out_info_array.meta_data_out_info[4].height          = 0;
+.meta_data_out_info_array.meta_data_out_info[4].stats_type      = 0;// HDR_STATS             
+.meta_data_out_info_array.meta_data_out_info[4].dt              = 0;
+.meta_data_out_info_array.meta_data_out_info[4].cid             = 0;
+.meta_data_out_info_array.meta_data_out_info[5].width           = 7;
+.meta_data_out_info_array.meta_data_out_info[5].height          = 0;
+.meta_data_out_info_array.meta_data_out_info[5].stats_type      = 0;// HDR_STATS             
+.meta_data_out_info_array.meta_data_out_info[5].dt              = 1;
+.meta_data_out_info_array.meta_data_out_info[5].cid             = 29;
+.meta_data_out_info_array.meta_data_out_info[6].width           = 0;
+.meta_data_out_info_array.meta_data_out_info[6].height          = -217506359;
+.meta_data_out_info_array.meta_data_out_info[6].stats_type      = 0;// HDR_STATS             
+.meta_data_out_info_array.meta_data_out_info[6].dt              = 0;
+.meta_data_out_info_array.meta_data_out_info[6].cid             = 0;
+.meta_data_out_info_array.meta_data_out_info[7].width           = 0;
+.meta_data_out_info_array.meta_data_out_info[7].height          = 8064;
+.meta_data_out_info_array.meta_data_out_info[7].stats_type      = 756;//(null)
+.meta_data_out_info_array.meta_data_out_info[7].dt              = 1;
+.meta_data_out_info_array.meta_data_out_info[7].cid             = 0;
+.meta_data_out_info_array.meta_data_out_info[8].width           = 43;
+.meta_data_out_info_array.meta_data_out_info[8].height          = 0;
+.meta_data_out_info_array.meta_data_out_info[8].stats_type      = 0;// HDR_STATS             
+.meta_data_out_info_array.meta_data_out_info[8].dt              = 0;
+.meta_data_out_info_array.meta_data_out_info[8].cid             = 0;
+.meta_data_out_info_array.meta_data_out_info[9].width           = 0;
+.meta_data_out_info_array.meta_data_out_info[9].height          = 0;
+.meta_data_out_info_array.meta_data_out_info[9].stats_type      = 0;// HDR_STATS             
+.meta_data_out_info_array.meta_data_out_info[9].dt              = 0;
+.meta_data_out_info_array.meta_data_out_info[9].cid             = 0;
+.meta_data_out_info_array.meta_data_out_info[10].width           = 0;
+.meta_data_out_info_array.meta_data_out_info[10].height          = 1;
+.meta_data_out_info_array.meta_data_out_info[10].stats_type      = 0;// HDR_STATS             
+.meta_data_out_info_array.meta_data_out_info[10].dt              = 0;
+.meta_data_out_info_array.meta_data_out_info[10].cid             = 0;
+.meta_data_out_info_array.meta_data_out_info[11].width           = 0;
+.meta_data_out_info_array.meta_data_out_info[11].height          = 0;
+.meta_data_out_info_array.meta_data_out_info[11].stats_type      = 0;// HDR_STATS             
+.meta_data_out_info_array.meta_data_out_info[11].dt              = 0;
+.meta_data_out_info_array.meta_data_out_info[11].cid             = 0;
+.meta_data_out_info_array.meta_data_out_info[12].width           = 0;
+.meta_data_out_info_array.meta_data_out_info[12].height          = 8;
+.meta_data_out_info_array.meta_data_out_info[12].stats_type      = -217505783;// SENSOR_SMETHOD_NOT_DEFINED                       
+.meta_data_out_info_array.meta_data_out_info[12].dt              = 2;
+.meta_data_out_info_array.meta_data_out_info[12].cid             = 0;
+.meta_data_out_info_array.meta_data_out_info[13].width           = 0;
+.meta_data_out_info_array.meta_data_out_info[13].height          = 0;
+.meta_data_out_info_array.meta_data_out_info[13].stats_type      = 0;// HDR_STATS             
+.meta_data_out_info_array.meta_data_out_info[13].dt              = 0;
+.meta_data_out_info_array.meta_data_out_info[13].cid             = 0;
+.optical_black_region_info.optical_black_region[0].x_start      = 0x0; 
+.optical_black_region_info.optical_black_region[0].y_start      = 0x0; 
+.optical_black_region_info.optical_black_region[0].width        = 0x0; 
+.optical_black_region_info.optical_black_region[0].height       = 0x0; 
+.optical_black_region_info.optical_black_region[1].x_start      = 0x0; 
+.optical_black_region_info.optical_black_region[1].y_start      = 0x0; 
+.optical_black_region_info.optical_black_region[1].width        = 0x0; 
+.optical_black_region_info.optical_black_region[1].height       = 0x0; 
+.sensor_capability = 0xb4f4a65c;
+.adc_readout_time     = -1259035012;
+.sensor_num_fast_aec_frame_skip =0;
+.app_delay:
+  0000  00 00 00 00                                      ....
+.noise_coeff.gradient_S        = 0.000000;
+.noise_coeff.offset_S          = 0.000000;
+.noise_coeff.gradient_O        = 0.000000;
+.noise_coeff.offset_O          = 0.000000;
+.test_pattern_info.solid_mode_addr.r_addr  = 0x602 ;
+.test_pattern_info.solid_mode_addr.gr_addr = 0x604 ;
+.test_pattern_info.solid_mode_addr.gb_addr = 0x608 ;
+.test_pattern_info.solid_mode_addr.b_addr  = 0x606 ;
+.test_pattern_info.test_pattern_settings[0].mode = 0 ;
+.test_pattern_info.test_pattern_settings[0].settings = {
+	.reg_setting_a = {  // index 0
+    	 	{0x600,	0x0,	0x0,},
+   		  	{},
+	},
+}, //end of .settings
+.test_pattern_info.test_pattern_settings[1].mode = 1 ;
+.test_pattern_info.test_pattern_settings[1].settings = {
+	.reg_setting_a = {  // index 0
+    	 	{0x600,	0x1,	0x0,},
+   		  	{},
+	},
+}, //end of .settings
+.test_pattern_info.test_pattern_settings[2].mode = 2 ;
+.test_pattern_info.test_pattern_settings[2].settings = {
+	.reg_setting_a = {  // index 0
+    	 	{0x600,	0x2,	0x0,},
+   		  	{},
+	},
+}, //end of .settings
+.test_pattern_info.test_pattern_settings[3].mode = 3 ;
+.test_pattern_info.test_pattern_settings[3].settings = {
+	.reg_setting_a = {  // index 0
+    	 	{0x600,	0x3,	0x0,},
+   		  	{},
+	},
+}, //end of .settings
+.test_pattern_info.test_pattern_settings[4].mode = 4 ;
+.test_pattern_info.test_pattern_settings[4].settings = {
+	.reg_setting_a = {  // index 0
+    	 	{0x600,	0x4,	0x0,},
+   		  	{},
+	},
+}, //end of .settings
+//DEBUG
+//info size = 806320
+power_setting_array:
+  0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+revised offset end
+b4 load eeprom lib
+enter
+lib_name ./libmmcamera_imx362_eeprom.so
+dlopen failed: library "./libmmcamera_imx362_eeprom.so" not found
+failed00 ./libmmcamera_imx362_eeprom.so
+eeprom_load_library, return -22
+sensor_unload_library
+__detach()
