@@ -2,6 +2,9 @@ This is a tool to load qcom libmmcamera sensor lib under arm/arm64 android8+ and
 Also, this is a stub lib and wrapper for loading older sensor library too for example provided a rectified struct sensor_lib_t 
 and recompile as share library.
 
+Arch for intercept:
+libmmcamera2_modules.so->libmmcamera_imx350.so (this_wrapper)->libmmcamera_sony_imx350_1.so (original so lib)
+
 To compile:
 Download Android gcc from below:
 https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+/refs/heads/android10-gsi
